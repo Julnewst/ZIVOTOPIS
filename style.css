@@ -1,0 +1,206 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5rem;
+  color: black;
+  background-color: rgb(205, 192, 205);
+}
+
+/* Formátování hlavičky */
+
+.hlavicka {
+  background-image: linear-gradient(
+    hsla(219, 66%, 53%, 0.4),
+    hsla(0, 0%, 0%, 0.4)
+  ),
+  url(obrazky/Čarodejnice\ obrys.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 10rem;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 6rem;
+  font-family: 'Cinzel', serif;
+  color: rgb(124, 96, 139);
+  text-align: center;
+  font-weight: 700;
+}
+
+/* Formátování menu */
+
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 0 4px hsla(0, 0%, 0%, 0.3);
+  line-height: 1rem;
+}
+
+.menu li {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem;
+  list-style-type: none;
+  text-align: center;
+  flex-basis: 50%;
+  background-color:rgb(99, 98, 98);
+}
+
+.menu li a {
+  color: floralwhite;
+  text-decoration: none;
+}
+
+.menu li:hover,
+.menu li:focus,
+.menu li:active {
+	background-color: rgb(147, 123, 155);
+	transition: 300ms;
+  transition-timing-function: ease-in;
+  margin: 0;
+	padding: 1.2rem;
+	text-shadow: 0 0 4px hsla(0, 0%, 0%, 0.3);
+}
+
+.menu li a:hover,
+.menu li a:focus,
+.menu li a:active {
+  color: whitesmoke;
+  }
+
+
+/* Formátování sekcí */
+
+section {
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.obal_sekci {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0rem;
+  font-size: 3rem ;
+  font-weight: 700;
+  font-family: 'Cinzel', serif;
+}
+
+.vzdelani, .znalosti, .kontakt {
+  background-color: rgb(173, 134, 186);
+  margin: 2rem 0;
+  padding: 2rem;
+}
+
+.kontakt{
+  margin-bottom: 0;
+}
+
+/* Sekce Představení */
+
+.foto_predstaveni {
+  border-radius: 50%;
+  height: 15rem;
+  margin-bottom: 4rem;
+}
+
+.box_foto_predstaveni {
+  text-align: center; 
+}
+
+.fotogalerie_predstaveni {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.fotogalerie_predstaveni img {
+  width: 33%;
+}
+
+/* Sekce Vzdělání */
+
+
+
+/* Sekce Praxe */
+
+.company {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0 0 0;
+}
+
+.pracovni_pozice {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.2rem;
+}
+
+/* Sekce Znalosti a dovednosti */
+
+.obal_znalosti {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.znalosti ul li {
+  text-decoration: none;
+  list-style-type: armenian;
+}
+
+.foto_koste {
+  float: right;
+  width: 8rem;
+  margin-left: 5rem;
+}
+
+/* Sekce Koníčky */
+
+.foto_konicky {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* Sekce Kontakt */
+
+.kontakt {
+  text-align: center;
+}
+
+.kontakt a:hover, .kontakt a:active, .kontakt a:focus {
+  color: whitesmoke;
+}
+/* Patička */
+
+.paticka {
+  background-color:rgb(99, 98, 98);
+  color: whitesmoke;
+  font-weight: 700;
+  text-align: center;
+  padding: 2rem;
+}
+
+
+
+/* font-family: 'Cinzel', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Playfair Display', serif; */
